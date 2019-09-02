@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 22cb335bd0e17034d83ad573781f6e01
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: armL
+    100004: armR
+    100006: belly
+    100008: //RootNode
+    100010: Bone
+    100012: Bone.001
+    100014: Camera
+    100016: Cube
+    100018: Cylinder
+    100020: forearmL
+    100022: forearmR
+    100024: forelegL
+    100026: forelegR
+    100028: head
+    100030: legL
+    100032: legR
+    100034: Light
+    100036: Sphere
+    100038: arm01L
+    100040: arm01R
+    100042: arm02L
+    100044: arm02R
+    100046: head 1
+    100048: leg01L
+    100050: leg01R
+    100052: leg02L
+    100054: leg02R
+    100056: main
+    400000: Armature
+    400002: armL
+    400004: armR
+    400006: belly
+    400008: //RootNode
+    400010: Bone
+    400012: Bone.001
+    400014: Camera
+    400016: Cube
+    400018: Cylinder
+    400020: forearmL
+    400022: forearmR
+    400024: forelegL
+    400026: forelegR
+    400028: head
+    400030: legL
+    400032: legR
+    400034: Light
+    400036: Sphere
+    400038: arm01L
+    400040: arm01R
+    400042: arm02L
+    400044: arm02R
+    400046: head 1
+    400048: leg01L
+    400050: leg01R
+    400052: leg02L
+    400054: leg02R
+    400056: main
+    2000000: Camera
+    2100000: No Name
+    2100002: Material
+    2300000: armL
+    2300002: armR
+    2300004: belly
+    2300006: Cube
+    2300008: forearmL
+    2300010: forearmR
+    2300012: forelegL
+    2300014: forelegR
+    2300016: head
+    2300018: legL
+    2300020: legR
+    2300022: Sphere
+    2300024: //RootNode
+    3300000: armL
+    3300002: armR
+    3300004: belly
+    3300006: Cube
+    3300008: forearmL
+    3300010: forearmR
+    3300012: forelegL
+    3300014: forelegR
+    3300016: head
+    3300018: legL
+    3300020: legR
+    3300022: Sphere
+    3300024: //RootNode
+    4300000: belly
+    4300002: head
+    4300004: armR
+    4300006: forearmR
+    4300008: legR
+    4300010: forelegR
+    4300012: armL
+    4300014: forearmL
+    4300016: legL
+    4300018: forelegL
+    4300020: Cylinder
+    4300022: Sphere
+    4300024: Cube
+    9500000: //RootNode
+    10800000: Light
+    13700000: Cylinder
+    13700002: armL
+    13700004: armR
+    13700006: belly
+    13700008: forearmL
+    13700010: forearmR
+    13700012: forelegL
+    13700014: forelegR
+    13700016: head
+    13700018: legL
+    13700020: legR
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

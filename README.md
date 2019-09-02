@@ -15,6 +15,7 @@ Cours de VR dans Unity du 2 au 6 september 2019.
 ### unity addons
 + [SteamVR Plugin](https://assetstore.unity.com/packages/templates/systems/steamvr-plugin-32647), official addon for HTC Vive
 + [3D Motion Gesture and Signature Recognition (for HTC Vive)](https://assetstore.unity.com/packages/tools/input-management/3d-motion-gesture-and-signature-recognition-for-htc-vive-95144) by [AirSig](https://assetstore.unity.com/publishers/28764)
++ [glTF importer](https://github.com/KhronosGroup/UnityGLTF)
 
 ### online resources
 + [HTC Vive Unity Tutorial](http://academyofvr.com/intro-vr-development-unity-htc-vive/) by [Academy of VR](http://academyofvr.com)
