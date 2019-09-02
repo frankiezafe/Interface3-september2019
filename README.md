@@ -2,7 +2,7 @@
 
 ![Local boy becomes ‘Pilot for a Day’](banner.png) source:https://www.mcchord.af.mil/News/Article-Display/Article/247720/local-boy-becomes-pilot-for-a-day/
 
-Cours de VR dans Unity du 20 au 24 août 2018.
+Cours de VR dans Unity du 2 au 6 september 2019.
 
 ## scenes
 
