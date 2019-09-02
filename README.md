@@ -21,7 +21,7 @@ Cours de VR dans Unity du 20 au 24 août 2018.
 
 ### pad
 
-+ [framapad](https://bimestriel.framapad.org/p/interface3-summer2018) - warning: available until 19/10!!!
++ [framapad](https://bimestriel.framapad.org/p/interface3-september2019)
 
 ### tools
 
