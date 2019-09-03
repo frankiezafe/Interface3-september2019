@@ -8,7 +8,7 @@ public class CamMousePhysics: MonoBehaviour {
     public Camera cam;
     public GameObject joint_grabber;
     private bool joint_grabber_enabled;
-    private HingeJoint joint;
+    private CharacterJoint joint;
     public Material hover_mat;
     [Range(-10,10)]
     public float scroll_speed = 0.3f;
@@ -269,7 +269,7 @@ public class CamMousePhysics: MonoBehaviour {
         }
 
         
-        joint = joint_grabber.GetComponent<HingeJoint>();
+        joint = joint_grabber.GetComponent<CharacterJoint>();
         joint_grabber_enabled = joint != null;
         if (joint_grabber_enabled) {
             Debug.Log("let's grab stuff with physics!");
