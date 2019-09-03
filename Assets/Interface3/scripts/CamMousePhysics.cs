@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class CamMousePhysics: MonoBehaviour {
 
     public Camera cam;
+    public GameObject joint_grabber;
+    private bool joint_grabber_enabled;
+    private HingeJoint joint;
     public Material hover_mat;
     [Range(-10,10)]
     public float scroll_speed = 0.3f;
@@ -79,7 +82,7 @@ public class CamMousePhysics: MonoBehaviour {
     }
 
     private void compute_hover()
-    {
+    { 
 
         if (grab_active) {
             return;
@@ -155,6 +158,10 @@ public class CamMousePhysics: MonoBehaviour {
             mouse_grab_init = Input.mousePosition;
             grab_active = true;
 
+            if (joint_grabber_enabled && current_obj.GetComponent<Rigidbody>() != null) {
+                joint.connectedBody = current_obj.GetComponent<Rigidbody>();
+            }
+
             if (memory != null) {
                 memory.object_grabbed(current_obj);
             }
@@ -182,6 +189,11 @@ public class CamMousePhysics: MonoBehaviour {
 
         grab_active = false;
         release_previous();
+
+        if (joint_grabber_enabled)
+        {
+            joint.connectedBody = null;
+        }
 
         if (msg_board != null)
         {
@@ -212,7 +224,13 @@ public class CamMousePhysics: MonoBehaviour {
         Vector3 relp = new Vector3(Input.mousePosition.x, Input.mousePosition.y, ray_space.z);
         Vector3 new_pos = cam.ScreenToWorldPoint(relp) + ray_offset;
 
-        current_obj.transform.position = new_pos;
+        if (!joint_grabber_enabled)
+        {
+            current_obj.transform.position = new_pos;
+        }
+        else {
+            joint_grabber.transform.position = new_pos + ray_rel_hit;
+        }
 
         new_pos += ray_rel_hit;
 
@@ -249,7 +267,14 @@ public class CamMousePhysics: MonoBehaviour {
         {
             msg_board.SetActive(false);
         }
-            
+
+        
+        joint = joint_grabber.GetComponent<HingeJoint>();
+        joint_grabber_enabled = joint != null;
+        if (joint_grabber_enabled) {
+            Debug.Log("let's grab stuff with physics!");
+        }
+
     }
 
     void Update()
