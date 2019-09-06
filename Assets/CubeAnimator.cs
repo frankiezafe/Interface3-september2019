@@ -16,18 +16,21 @@ public class CubeAnimator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            //anim.Play("rotate");
+            //Debug.Log(anim.GetCurrentAnimatorClipInfo(0)[0].clip.name);
             if (anim.GetBool("to_move"))
             {
                 anim.SetBool("to_move", false);
                 anim.SetBool("to_rot", true);
             }
-            else {
+            else
+            {
                 anim.SetBool("to_move", true);
                 anim.SetBool("to_rot", false);
             }
-            Debug.Log(anim.GetCurrentAnimatorClipInfo(0)[0].clip.name);
         }
-    }
+}
 }
