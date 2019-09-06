@@ -1,0 +1,132 @@
+*Interface3 september 2019
+
+pad du  cours VR, 02>06 september 2019
+
+sources du cours: https://github.com/frankiezafe/Interface3-september2019
+
+partage de projets unity entre vous: https://unity3d.com/get-teams
+autre solution: http://github.com & http://gitlab.com (nécessite l'installation d'un client git sur votre machine, https://desktop.github.com/ par exemple)
+
+*projets
+
+*Profile perfect
+	* responsable: roumi
+	* équipe: farah, tugba, jess, perrine, roumi
+	* memory game, refaire un profil parfait
+	* https://github.com/rumywanderung/projet-vr
+
+*Agence matrimoniale new gen
+	* responsable: aurore
+	* équipe: arianne, aurore, yiwei, shera
+	* faire des couples de poupées
+	* https://github.com/Sheraaa/Agence_Matrimoniale_New_Gen
+
+*Bienvenue chez tinder
+	* responsable: aurélie
+	* équipe: aurélie, hélène, alex, yavannah
+	* récupérer ses informations dans les bureaux de tinder
+	* https://github.com/Halimeda/Projet_VR
+
+tâches 02/09 > 11h30
+	* liste/ des tâches
+	* références graphiques (images, films, sons, etc)
+	* liste des objets à créer
+	* répartition des tâches (qui fait quoi)
+	* un dossier partagé qqle par en ligne, auquel tout le monde peut avoir accès
+	* planning en texte
+
+*resources
+
+ATTENTION AUX LICENSES! > tout fichier est protégé par le droit d'auteur par défaut, ce qui implique que l'utiliser sans autorisation écrite de l'auteur est illégal
+Si aucune mention de la licence d'utilisation n'est présente, mieux vaut ne pas utiliser le fichier (principe de précaution)
+Les licences permettant l'utilisation de fichiers graphiques, sons, vidéo, etc.
+	* https://creativecommons.org/ - CC0, CC BY, etc.
+	* http://artlibre.org/
+Pour le code:
+	* les permissives (utilisation commerciale du code, sans obligation de publication des modifications)
+		* MIT: https://opensource.org/licenses/MIT
+		* BSD: https://opensource.org/licenses/BSD-3-Clause
+		* Apache: https://opensource.org/licenses/Apache-2.0
+	* les polluantes (obligation de publication des modifications)
+		* GPL, LGPL: https://opensource.org/node/193
+https://gamedev.stackexchange.com/questions/31427/alternatives-to-the-gpl
+
+apps:
+	* 3d: http://blender.org
+	* son: https://www.audacityteam.org
+	* retouche image: http://gimp.org
+	* dessin vectoriel: http://inkscape.org
+	* fonts: https://fontba.se
+
+models:
+	* https://www.blendswap.com
+	* https://www.turbosquid.com/3d-model/free/
+	* https://sketchfab.com/tags/blender
+
+materials:
+	* http://blendermada.com/materials/ (attention, implique de baker les textures > https://www.quora.com/How-do-you-bake-texture-maps-in-Blender-2-8)
+
+textures:
+	* https://cc0textures.com/
+
+sounds:
+	* https://freesound.org/
+
+polices:
+	* https://fontstruct.com
+
+Tutorials:
+- gestion des animations avec le state engine de unity: https://www.studica.com/blog/unity-tutorial-animator-controllers
+
+TODO pour mardi matin 8h45:
+    students
+	* liste des besoins en matière de scripting
+	* liste des tâches pour la journée
+	fz
+	* récupération de https://github.com/frankiezafe/Interface3-september2019 chez tout le monde
+	* installation Vive
+	* fin de matinée: récupération et validation d'un fichier blender complexe pour chaque groupe
+	* accès au projet unity (aprèm) et validation de la structure
+
+liste des tâches programmation
+
+- pour les devs, installer https://desktop.github.com/ 
+- une fois fait, aller dans file > clone repository
+- sélectionner le projet Interface3-september2019
+- sélectionner un dossier sur le disque dur
+- appuyer sur clone
+
+- récupérer l'objet cliqué (OK)
+- déplacement & trigger > comment déclencher un événement en passant d'un point à l'autre > détecter quel est le point de départ et quel est le point d'arrivée, et déclencher en fonction
+- poser les objets sans physique
+- - pendant le grab: pas de physique puisque la position est imposée
+- - pour conserver la physique: créer un join entre la manette et l'objet - attention, peut rendre l'objet instable > faire plusieurs joins
+- intégrer sons > audio source, au changement de zone, changer l'audioclip lu
+
+- comment se déplacer? sauter d'un endroit à un autre
+
+- historique? > ajouter dans une liste les objets
+
+choses à regarder niveau VR:
+
+oeuvres/xp VR:
+- Mirages et miracles par Adrien M & Claire B: https://vimeo.com/248983439 / https://www.am-cb.net/projets/mirages-miracles
+- Immersio par Yann Deval, Aurélien Merceron, Christophe Monchalin, Boris Wilmot, Thomas Fage, Stéphane Laplatte: http://immersio.tv/#Teaser
+- Atlas par Yann Deval & Marie-G Losseau: http://www.atlas-experience.xyz/#Video
+- Gender Swap - Experiment with The Machine to Be Another par SPECS (Synthetic, Perceptive, Emotive and Cognitive Systems Group) Pompeu Fabra University: https://vimeo.com/84150219
+
+lieux/boîtes
+- LE festival de la VR à paris: https://www.laval-virtual.com/fr/accueil/
+- B71, liège: https://www.b71.be
+
+outils:
+- A-Frame, le framework for building virtual reality experiences: https://aframe.io/
+- ThreeJS, le meilleur gameengine javascript, https://threejs.org/ (exemple: http://www.larsberg.net/#/laserBagpipe)
+
+trucs cool:
+- Goodbye Uncanny Valley, le futur de la 3d : https://vimeo.com/237568588
+- Uterus Man, par Lu Yang, un artiste japonais complètement fou: https://vimeo.com/82164043 voir aussi son site: http://luyang.asia/
+- Ugly Rave WIP par Nikita Diakur: https://vimeo.com/231719008
+- Plug & Play par Michael Frei: https://vimeo.com/117965348 , sur steam: https://store.steampowered.com/app/353560/Plug__Play/
+- Pink Party 01 - Sweet Zombie par Sandrine Deumier: https://vimeo.com/230655478
+- Isabelle Arvers, machinima: http://www.isabellearvers.com/category/machinimas/

@@ -4,4 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Interface3/scenes/Ragdoll.unity
+    guid: f4f5959bcc7da0b419e18fb67184ba88
+  - enabled: 1
+    path: Assets/Interface3/scenes/MouseGrabPhysics.unity
+    guid: 1650862a79547074d831a4281c8ed859
+  - enabled: 1
+    path: Assets/Interface3/scenes/keyshapes.unity
+    guid: 8172903d708f66b47bea9f0c6d24d577
+  - enabled: 1
+    path: Assets/Interface3/scenes/MouseGrab.unity
+    guid: 176aaa043f25985408e92712b124f69b
+  - enabled: 1
+    path: Assets/Interface3/scenes/animation.unity
+    guid: 93cf19d253adea14f9abd95dbaf96652
+  m_configObjects: {}

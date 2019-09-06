@@ -23,7 +23,7 @@ public class KeyshapeController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        UnityEditor.PlayerSettings.legacyClampBlendShapeWeights = false;
+        //UnityEditor.PlayerSettings.legacyClampBlendShapeWeights = false;
         skin = GetComponent<SkinnedMeshRenderer>();
     }
 
